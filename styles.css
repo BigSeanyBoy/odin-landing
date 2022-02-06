@@ -11,8 +11,7 @@ body > div {
 .section-one {
   display: flex;
   flex-direction: column;
-  background-color: #242444;
-  color: white;
+  background-color: #1f2937;
   padding: 10px 100px;
 }
 
@@ -25,6 +24,7 @@ body > div {
 .logo {
   font-weight: 900;
   font-size: 18px;
+  color: #f9faf8;
 }
 
 .content-one {
@@ -38,16 +38,18 @@ body > div {
 
 .hero-title {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 48px;
+  color: #f9faf8;
 }
 
 .hero-text {
-  color: #e8e8e8;
+  color: #e5e7eb;
   padding: 10px 0px;
 }
 
 .image {
   background-color: grey;
+  color: #f9faf8;
   height: 200px;
   width: 450px;
   text-align: center;
@@ -66,15 +68,54 @@ ul {
 
 a {
   text-decoration: none;
-  color: #e8e8e8;
+  color: #e5e7eb;
   padding-left: 16px;
 }
 
 button {
   padding: 8px 28px;
   font-weight: 900;
-  color: white;
-  background-color: cornflowerblue;
+  color: #f9faf8;
+  background-color: #3882f6;
   border: none;
   border-radius: 8px;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
+}
+
+.content-two {
+  display: flex;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.picture {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.text {
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
 }
